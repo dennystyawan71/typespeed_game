@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Typing Speed Test Game | CodingNepal</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <audio hidden autoplay loop>
+        <source src="assets/musik.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio, upgrade donk!
+    </audio>
+
+    <div class="wrapper">
+      <div class="judul">
+        <p class="animate__animated animate__flash">Typing Speed</p>
+      </div>
+      <input type="text" class="input-field">
+      <div class="content-box">
+        <div class="typing-text">
+            <h3 class="animate__animated animate__backInLeft">Penjelasan</h3> <br>
+            <p  style="font-size: 14px;" class="animate__animated animate__backInLeft">Typing Speed adalah permainan yang dapat menguji kecepatan anda dalam mengetik , untuk cara bermainnya sangat mudah, anda cukup menjalankan web ini saja lalu kemudian anda bisa langsung mengetikkan kata kata yang muncul pada layar anda dan secara otomatis waktu akan berjalan ketika anda mulai mengetikkan huruf yang pertama dari kata tersebut lalu pengetikan anda akan terhenti ketika waktu sudah habis dan setelahnya anda bisa melihat hasil dari ketikan anda , anda bisa melihat berapa jumlah kesalahan dalam pengetikan anda, berapa kata per menit dan berapa karakter per menit.</p> <br>
+
+            <h3 class="animate__animated animate__backInLeft">Harus Diketahui</h3> <br>
+            <p style="font-size: 14px;" class="animate__animated animate__backInLeft">
+                1. Waktu pengetikan akan di berikan selama <strong>60 Detik</strong> <br>
+                2. Waktu akan otomatis berjalan ketika anda mulai mengetik. <br>
+                3. <strong>WPM (word per minute)</strong> adalah jumlah kata per menit yang anda ketik. <br>
+                4. <strong>CPM (charachter per minute)</strong> adalah jumlah katakter per menit yang anda ketik <br>
+                5. klik tombol <strong>ulangi</strong> untuk merefresh permainan.
+            </p>
+            <br>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Faham bermainnya ? <a href="./" onmousedown="menu.play()">Mulai Bermain!</a></p>
+        <p>@copyright : <span style="color:#b317b8;">dennystyawan71</span></p>
+      </div>
+    </div>
+
+    <script>
+        var menu = new Audio();
+        menu.src = "assets/tombol1.mp3";
+      </script>
+  </body>
+</html>

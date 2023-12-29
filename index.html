@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Typing Speed Test Game | CodingNepal</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <audio hidden autoplay loop>
+      <source src="assets/musik.mp3" type="audio/mpeg">
+      Browsermu tidak mendukung tag audio, upgrade donk!
+    </audio>
+
+    <div class="wrapper">
+      <div class="judul">
+        <p class="animate__animated animate__flash">Typing Speed</p>
+      </div>
+      <input type="text" class="input-field">
+      <div class="content-box">
+        <div class="typing-text">
+          <p class="animate__animated animate__flipInX"></p>
+        </div>
+        <div class="content">
+          <ul class="result-details">
+            <li class="time">
+              <p>Waktu:</p>
+              <span><b>60</b>s</span>
+            </li>
+            <li class="mistake">
+              <p>Salah:</p>
+              <span>0</span>
+            </li>
+            <li class="wpm">
+              <p>WPM:</p>
+              <span>0</span>
+            </li>
+            <li class="cpm">
+              <p>CPM:</p>
+              <span>0</span>
+            </li>
+          </ul>
+          <button onmousedown="ulangi.play()">Ulangi</button>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Cara bermainnya ? <a href="tutor.html" onmousedown="menu.play()">Pelajari Selengkapnya!</a></p>
+        <p>@copyright : <span style="color:#b317b8;">dennystyawan71</span></p>
+      </div>
+    </div>
+
+    <script src="js/paragraphs.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      var ulangi = new Audio();
+      ulangi.src = "assets/tombol.mp3";
+      var menu = new Audio();
+      menu.src = "assets/tombol1.mp3";
+    </script>
+  
+  </body>
+</html>
